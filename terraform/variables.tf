@@ -7,7 +7,7 @@ variable "aws_region" {
 variable "bucket_name" {
   description = "Nome do bucket S3 para hospedar o site"
   type        = string
-  default     = "site-estatico-s3-daniel"
+  default     = "site-estatico-s3-asp"
 }
 
 variable "environment" {
