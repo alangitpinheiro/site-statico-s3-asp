@@ -31,7 +31,7 @@ jobs:
             echo "Esvaziando o bucket..."
             aws s3 rm s3://$BUCKET_NAME --recursive
             
-            # Então, excluir o bucket
+            # Então, excluir o bucket 
             echo "Excluindo o bucket..."
             aws s3api delete-bucket --bucket $BUCKET_NAME
             
